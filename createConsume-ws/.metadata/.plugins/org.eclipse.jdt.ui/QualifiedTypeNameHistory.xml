@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="com.tahir.customsql.service.persistence.impl.TahirNoorKhaliqFinderBaseImpl"/>
+<fullyQualifiedTypeName name="com.liferay.portal.kernel.service.persistence.impl.BasePersistenceImpl"/>
+<fullyQualifiedTypeName name="com.tahir.customsql.model.TahirNoorKhaliq"/>
+<fullyQualifiedTypeName name="com.tahir.customsql.service.persistence.TahirNoorKhaliqFinder"/>
+<fullyQualifiedTypeName name="com.tahir.customsql.service.persistence.TahirNoorKhaliqFinderUtil"/>
+</qualifiedTypeNameHistroy>

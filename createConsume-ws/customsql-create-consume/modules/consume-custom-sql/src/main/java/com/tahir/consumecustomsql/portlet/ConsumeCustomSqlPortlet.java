@@ -1,0 +1,57 @@
+package com.tahir.consumecustomsql.portlet;
+
+import com.liferay.portal.kernel.portlet.bridges.mvc.MVCPortlet;
+
+import javax.portlet.Portlet;
+import javax.portlet.PortletException;
+import javax.portlet.RenderRequest;
+import javax.portlet.RenderResponse;
+
+import com.tahir.customsql.model.TahirNoorKhaliq;
+import com.tahir.customsql.service.TahirNoorKhaliqLocalService;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Reference;
+
+import java.io.IOException;
+import java.util.List;
+
+@Component(
+        immediate = true,
+        property = {
+                "com.liferay.portlet.display-category=category.sample",
+                "com.liferay.portlet.instanceable=true",
+                "javax.portlet.display-name=consume-custom-sql Portlet",
+                "javax.portlet.init-param.template-path=/",
+                "javax.portlet.init-param.view-template=/view.jsp",
+                "javax.portlet.resource-bundle=content.Language",
+                "javax.portlet.security-role-ref=power-user,user"
+        },
+        service = Portlet.class
+)
+public class ConsumeCustomSqlPortlet extends MVCPortlet {
+	
+
+   private TahirNoorKhaliqLocalService tahirNoorKhaliqLocalService;
+   
+
+    @Override
+    public void doView(RenderRequest renderRequest, RenderResponse renderResponse) throws IOException, PortletException {
+        try {
+            List<TahirNoorKhaliq> tnk = tahirNoorKhaliqLocalService.getAllEnteries();
+            for (TahirNoorKhaliq tahirNoorKhaliq :
+                    tnk) {
+                System.out.println("Name : "+tahirNoorKhaliq.getUserName());
+                System.out.println("DOB : "+tahirNoorKhaliq.getDob());
+            }
+        } catch (Exception e) {
+            System.out.println(e);
+        }
+        System.out.println(">>>>>>> " + tahirNoorKhaliqLocalService.getTahirNoorKhaliqs(-1, -1));
+        super.doView(renderRequest, renderResponse);
+    }
+
+    @Reference
+    public void setTahirNoorKhaliqLocalService(TahirNoorKhaliqLocalService tahirNoorKhaliqLocalService) {
+        this.tahirNoorKhaliqLocalService = tahirNoorKhaliqLocalService;
+    }
+}

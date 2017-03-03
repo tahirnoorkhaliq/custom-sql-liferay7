@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.liferay:com.liferay.portal.dao.orm.custom.sql:1.0.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.portal.dao.orm.custom.sql/1.0.3/17c0828384960489a05c6d4cf070bfc3dafe12d5/com.liferay.portal.dao.orm.custom.sql-1.0.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.liferay/com.liferay.portal.dao.orm.custom.sql/1.0.3/d25a4b4b3a53a2ec550c2481c2addc9da7d54cd0/com.liferay.portal.dao.orm.custom.sql-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

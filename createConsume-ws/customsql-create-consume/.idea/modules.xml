@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql.iml" group="modules/consume-custom-sql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_main.iml" group="modules/consume-custom-sql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_test.iml" group="modules/consume-custom-sql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/consume-custom-sql/consume-custom-sql_testIntegration.iml" group="modules/consume-custom-sql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql.iml" group="modules/create-custom-sql" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api.iml" group="modules/create-custom-sql/create-custom-sql-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_main.iml" group="modules/create-custom-sql/create-custom-sql-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_test.iml" group="modules/create-custom-sql/create-custom-sql-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-api/create-custom-sql-api_testIntegration.iml" group="modules/create-custom-sql/create-custom-sql-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service.iml" group="modules/create-custom-sql/create-custom-sql-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_main.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_main.iml" group="modules/create-custom-sql/create-custom-sql-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_test.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_test.iml" group="modules/create-custom-sql/create-custom-sql-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_testIntegration.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/create-custom-sql/create-custom-sql-service/create-custom-sql-service_testIntegration.iml" group="modules/create-custom-sql/create-custom-sql-service" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/customsql-create-consume.iml" filepath="$PROJECT_DIR$/.idea/modules/customsql-create-consume.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/modules/modules.iml" filepath="$PROJECT_DIR$/.idea/modules/modules/modules.iml" group="modules" />
+    </modules>
+  </component>
+</project>

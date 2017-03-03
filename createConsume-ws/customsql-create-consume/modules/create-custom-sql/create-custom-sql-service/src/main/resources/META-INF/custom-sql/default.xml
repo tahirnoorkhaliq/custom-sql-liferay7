@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custom-sql>
+    <sql id="sql1"> <![CDATA[ SELECT * from AT_TahirNoorKhaliq ]]> </sql>
+</custom-sql>

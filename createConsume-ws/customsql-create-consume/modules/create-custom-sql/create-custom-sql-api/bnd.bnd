@@ -1,0 +1,7 @@
+Bundle-SymbolicName: create.custom.sql-api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.tahir.customsql.exception,\
+	com.tahir.customsql.model,\
+	com.tahir.customsql.service,\
+	com.tahir.customsql.service.persistence

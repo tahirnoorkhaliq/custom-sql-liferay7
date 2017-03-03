@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>customsql-create-consume</name>
+	<comment>Project customsql-create-consume created by Buildship.</comment>
+	<projects>
+		<project>consume-custom-sql</project>
+		<project>create-custom-sql</project>
+		<project>create-custom-sql-api</project>
+		<project>create-custom-sql-service</project>
+		<project>modules</project>
+		<project>RemoteSystemsTempFiles</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.buildship.core.gradleprojectbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.buildship.core.gradleprojectnature</nature>
+	</natures>
+</projectDescription>
