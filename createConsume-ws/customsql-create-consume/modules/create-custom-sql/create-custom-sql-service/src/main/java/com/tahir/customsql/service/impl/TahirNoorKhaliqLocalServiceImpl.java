@@ -55,12 +55,17 @@ public class TahirNoorKhaliqLocalServiceImpl
 		System.out.println("Util");
 		//return  TahirNoorKhaliqFinderUtil.getTahirNoorKhaliq();
 		try{
+			
+			//one way
 			List<TahirNoorKhaliq> tnk=tahirNoorKhaliqFinder.getTahirNoorKhaliq();
 			for (TahirNoorKhaliq tahirNoorKhaliq :
 					tnk) {
 				System.out.println("Name : "+tahirNoorKhaliq.getUserName());
 				System.out.println("DOB : "+tahirNoorKhaliq.getDob());
 			}
+			//one way
+			  //return tahirNoorKhaliqFinder.getTahirNoorKhaliq();
+			//second way
 			return getTahirNoorKhaliqFinder().getTahirNoorKhaliq();
 		} catch(Exception e){
 			e.printStackTrace();
